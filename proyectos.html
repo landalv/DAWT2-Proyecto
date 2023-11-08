@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"><!--Especificamos juego de caracteres-->
+    <!--Titulo-->
+    <title>Carlos Landa Vázquez</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="./old_version/media/img/logos/landacarlos-logo.png">
+    <!--Estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="./old_version/css/general.css">
+    <!--estilos generales para estructura HTML5-->
+    <link rel="stylesheet" type="text/css" href="./old_version/css/menu.css">
+    <!--estilos para menu superior (header+nav) -->
+    <link rel="stylesheet" type="text/css" href="./old_version/css/cuerpo.css"><!--estilos para el cuerpo de la web-->
+    <meta charset="UTF-8"><!--Especificamos juego de caracteres-->
+    <!--Titulo-->
+    <title>Carlos Landa Vázquez</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="./assets/img/logos/landacarlos-logo.png">
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"><!--estilos generales para estructura HTML5-->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand col-auto" href="#">
+            <img src="./assets/img/landacarlos-logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Carlos Landa Vázquez
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./hobbies.html">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <button class="btn btn-success btn-aside" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-arrow-right"></i>
+        </button>
+    </nav>
+    <section style="width: 98%;">
+        <!--Cuerpo Central-->
+        <article class="proyectos" id="proyectos" style="display: block;">
+            <!--Articulo dentro de la sección principal-->
+            <table align="center">
+                <thead align="center">
+                    <tr>
+                        <th colspan="3">
+                            <h2>Proyectos</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <h3>Nombre</h3>
+                        </th>
+                        <th>
+                            <h3>Descripción</h3>
+                        </th>
+                        <th>
+                            <h3>Un vistazo</h3>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody align="center">
+                    <tr>
+                        <td>
+                            <h4>
+                                Estación de recarga y custodia de patinetes electricos
+                            </h4>
+                        </td>
+                        <td>
+                            <p>Proyecto que lleve a cabo durante mi estancia en la empresa <a
+                                    href="https://www.solumpv.com/">Solum Photovoltaic Innovation</a>, para recarga y
+                                custodia de patinetes electricos a traves de app movil propia.</p>
+                        </td>
+                        <td>
+
+                            <div class="img-container">
+                                <a href="https://www.solumpv.com/helios/">
+                                    <img src="./old_version/media/img/proyectos/helios.png"
+                                        alt="Estación de recarga helios-solum" title="Helios Solum">
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>
+                                Tirador de Cerveza Automatico
+                            </h4>
+                        </td>
+                        <td>
+                            <p>Uno de los principales proyecto que lleve a cabo durante mi estancia en la empresa <a
+                                    href="https://www.gmingenieria.com/">GM Ingenieria</a>, el cual consistio en un
+                                tirador de cerveza automatico para los establecimientos "100 montaditos" del grupo
+                                restalia.</p>
+                        </td>
+                        <td>
+                            <div class="img-container">
+                                <a
+                                    href="https://www.gruporestalia.com/100-montaditos-revoluciona-la-forma-de-consumir-cerveza-con-autofill">
+                                    <img src="./old_version/media/img/proyectos/100_montaditos_revoluciona.png"
+                                        alt="tirador de cerveza Autofill-restalia" title="Autofill-restalia">
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>
+                                Sensor Aparcamiento
+                            </h4>
+                        </td>
+                        <td>
+                            <p>Este fué uno de los primeros proyectos que lleve a cabo durante mi formación y consiste
+                                en un medido de aparcamiento, que detecta distancia a traves de ultrasonido y todo el
+                                circuitaje del sistema lo diseñe y lleve a cabo a traves del software proteus, mientras
+                                que la programación la lleve a cabo a traves del software de arduino.
+                            </p>
+                        </td>
+                        <td>
+                            <!--
+                                <video style="width: 100%;" controls muted>
+                                    <source src="./old_version/imagenes/proyectos/proyecto1.mp4"/>
+                                    tu navegador no acepta videos .mp4
+                                </video>
+                                -->
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/emZYxvdvX8w"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </td>
+                    </tr>
+                <tfoot align="center">
+                    <tr>
+                        <td colspan="3">
+                            <div class="button">
+                                <a href="./index.html#inicio">
+                                    <h3>Volver a Inicio</h3>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </article>
+    </section>
+    <aside>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Enlaces</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Inicio</a></li>
+                    <li class="list-group-item"><a href="#proyectos">Proyectos</a></li>
+                    <li class="list-group-item"><a href="#hobbies">Hobies</a></li>
+                    <li class="list-group-item"><a href="./contacto.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <footer class="bg-dark">
+        <!--Pie de pagina web-->
+        <div class="container">
+            <h2 class="display-6">&copy; carloslanda.es 2023</h2>
+        </div>
+    </footer>
+    <!--Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
